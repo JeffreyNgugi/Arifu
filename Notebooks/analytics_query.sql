@@ -28,4 +28,4 @@ FROM smsinbox
          LEFT JOIN programs ON programs.id = program_variations.program_id
          LEFT JOIN projects ON programs.project_id = projects.id
          LEFT JOIN partners ON projects.partner_id = partners.id
-WHERE smsinbox.created_at >= '2020-09-01' and partners.name = "Mastercard Kenya"
+WHERE smsinbox.created_at >= '2020-09-01' and partners.name = "xxx"
